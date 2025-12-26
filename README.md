@@ -25,8 +25,8 @@ A **simple Todo API** built with **Django REST Framework (DRF)**, supporting **J
 
 ## Tech Stack
 
-- Python 3.x  
-- Django 4.x  
+- Python 3.13.5  
+- Django 5.2.5  
 - Django REST Framework  
 - Django REST Framework Simple JWT  
 - django-filter  
@@ -62,17 +62,18 @@ cd Todo-API
 | `/todos/<id>/` | DELETE | Delete a todo                | N/A                                                                                            |
 
 
-# Project Structure
+## Project Structure
 
-backend/
-│
-├── api/                # API app (views, serializers, permissions)
-├── todo/               # Todo app (models)
-├── user/               # User app (models)
-├── backend/            # Django project settings
-└── manage.py
+Todo-API/
+├── backend/
+│   ├── api/         # API app (views, serializers, permissions)
+│   ├── todo/        # Todo app (models)
+│   ├── user/        # User app (models)
+│   ├── backend/     # Django project settings
+│   └── manage.py
 
-# Notes
+
+## Notes
 
 - Only authenticated users can access Todo endpoints
 - Users can only manage their own todos (IsOwner permission)
