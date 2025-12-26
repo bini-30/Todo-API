@@ -64,14 +64,13 @@ cd Todo-API
 
 ## Project Structure
 
-Todo-API/
-├── backend/
-│   ├── api/         # API app (views, serializers, permissions)
-│   ├── todo/        # Todo app (models)
-│   ├── user/        # User app (models)
-│   ├── backend/     # Django project settings
-│   └── manage.py
-
+- Todo-API/
+  - backend/
+    - api/        # API app (views, serializers, permissions)
+    - todo/       # Todo app (models)
+    - user/       # User app (models)
+    - backend/    # Django project settings
+    - manage.py
 
 ## Notes
 
